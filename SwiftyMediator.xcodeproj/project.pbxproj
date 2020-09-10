@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C51FAD0250902BA005D010F /* LLRouterInjection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C51FACF250902BA005D010F /* LLRouterInjection.swift */; };
+		6C51FAD225090C1C005D010F /* TestClass1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C51FAD125090C1C005D010F /* TestClass1.swift */; };
+		6C51FAD425090C23005D010F /* TestClass2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C51FAD325090C23005D010F /* TestClass2.swift */; };
+		6C51FAD625090C2A005D010F /* TestClass3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C51FAD525090C2A005D010F /* TestClass3.swift */; };
+		6C51FAD825090C91005D010F /* LLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C51FAD725090C91005D010F /* LLRouter.swift */; };
 		6C859D412501E88C00BF82B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C859D402501E88C00BF82B8 /* AppDelegate.swift */; };
 		6C859D432501E88C00BF82B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C859D422501E88C00BF82B8 /* SceneDelegate.swift */; };
 		6C859D452501E88C00BF82B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C859D442501E88C00BF82B8 /* ViewController.swift */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C51FACF250902BA005D010F /* LLRouterInjection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLRouterInjection.swift; sourceTree = "<group>"; };
+		6C51FAD125090C1C005D010F /* TestClass1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass1.swift; sourceTree = "<group>"; };
+		6C51FAD325090C23005D010F /* TestClass2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass2.swift; sourceTree = "<group>"; };
+		6C51FAD525090C2A005D010F /* TestClass3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestClass3.swift; sourceTree = "<group>"; };
+		6C51FAD725090C91005D010F /* LLRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLRouter.swift; sourceTree = "<group>"; };
 		6C859D3D2501E88C00BF82B8 /* SwiftyMediator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyMediator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C859D402501E88C00BF82B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C859D422501E88C00BF82B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C6F8FD9250A016F00650911 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				6C51FAD725090C91005D010F /* LLRouter.swift */,
+				6C51FACF250902BA005D010F /* LLRouterInjection.swift */,
+			);
+			path = Mediator;
+			sourceTree = "<group>";
+		};
 		6C859D342501E88C00BF82B8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +75,7 @@
 		6C859D3F2501E88C00BF82B8 /* SwiftyMediator */ = {
 			isa = PBXGroup;
 			children = (
+				6C6F8FD9250A016F00650911 /* Mediator */,
 				6C859D402501E88C00BF82B8 /* AppDelegate.swift */,
 				6C859D422501E88C00BF82B8 /* SceneDelegate.swift */,
 				6C859D442501E88C00BF82B8 /* ViewController.swift */,
@@ -63,6 +83,9 @@
 				6C859D492501E88E00BF82B8 /* Assets.xcassets */,
 				6C859D4B2501E88E00BF82B8 /* LaunchScreen.storyboard */,
 				6C859D4E2501E88E00BF82B8 /* Info.plist */,
+				6C51FAD125090C1C005D010F /* TestClass1.swift */,
+				6C51FAD325090C23005D010F /* TestClass2.swift */,
+				6C51FAD525090C2A005D010F /* TestClass3.swift */,
 			);
 			path = SwiftyMediator;
 			sourceTree = "<group>";
@@ -139,7 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C859D452501E88C00BF82B8 /* ViewController.swift in Sources */,
+				6C51FAD425090C23005D010F /* TestClass2.swift in Sources */,
+				6C51FAD825090C91005D010F /* LLRouter.swift in Sources */,
 				6C859D412501E88C00BF82B8 /* AppDelegate.swift in Sources */,
+				6C51FAD0250902BA005D010F /* LLRouterInjection.swift in Sources */,
+				6C51FAD625090C2A005D010F /* TestClass3.swift in Sources */,
+				6C51FAD225090C1C005D010F /* TestClass1.swift in Sources */,
 				6C859D432501E88C00BF82B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
